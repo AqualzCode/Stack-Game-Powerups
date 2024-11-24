@@ -1,6 +1,6 @@
 Stack Master Game
 
-A web-based stacking game where players build the highest tower possible by perfectly aligning falling blocks. Features three unique power-ups to enhance gameplay.
+A stacking game where players build the highest tower possible by perfectly aligning falling blocks. Features three unique power-ups to enhance gameplay.
 
 Features
 
@@ -12,7 +12,6 @@ Features
 - 🏆 High score tracking
 - 🎨 Beautiful, responsive design
 - 🌈 Colorful block patterns
-- 📱 Works on both desktop and mobile
 
 Technologies Used
 
