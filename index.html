@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stack Master</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="hud">
+            <div class="score">Score: <span id="score">0</span></div>
+            <div class="high-score">High Score: <span id="highScore">0</span></div>
+        </div>
+
+        <div class="power-ups">
+            <div class="power-up" id="slowMotion">
+                <div class="power-up-icon">⏰</div>
+                <div class="power-up-label">Slow Motion</div>
+            </div>
+            <div class="power-up" id="perfectStack">
+                <div class="power-up-icon">🎯</div>
+                <div class="power-up-label">Perfect Stack</div>
+            </div>
+            <div class="power-up" id="wider">
+                <div class="power-up-icon">↔️</div>
+                <div class="power-up-label">Wider Block</div>
+            </div>
+        </div>
+
+        <canvas id="gameCanvas"></canvas>
+
+        <div class="controls">
+            <button id="startButton">Start Game</button>
+            <button id="stackButton">Stack!</button>
+        </div>
+
+        <div class="game-over hidden">
+            <h2>Game Over!</h2>
+            <p>Your Score: <span id="finalScore">0</span></p>
+            <button id="restartButton">Play Again</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>

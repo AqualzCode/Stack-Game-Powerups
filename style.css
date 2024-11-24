@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.game-container {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+}
+
+.hud {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.power-ups {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.power-up {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.power-up:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.power-up.active {
+    background: rgba(0, 255, 0, 0.2);
+}
+
+.power-up-icon {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.power-up-label {
+    font-size: 0.8em;
+}
+
+#gameCanvas {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    margin: 20px auto;
+    display: block;
+    max-width: 100%;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    background: #4a90e2;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background 0.2s, transform 0.2s;
+}
+
+button:hover {
+    background: #357abd;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+.game-over {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.9);
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.game-over h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.game-over p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.hidden {
+    display: none;
+}
