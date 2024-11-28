@@ -1,17 +1,17 @@
 Stack Master Game
 
-A stacking game where players build the highest tower possible by perfectly aligning falling blocks. Features three unique power-ups to enhance gameplay.
+A stacking game where players build the highest tower possible by perfectly aligning falling blocks _ features 3 powerups.
 
 Features
 
-- 🎮 Simple one-button gameplay (Space bar or click)
-- 🎯 Three unique power-ups:
-  - ⏰ Slow Motion: Reduces block movement speed
-  - 🎯 Perfect Stack: Guarantees perfect alignment
-  - ↔️ Wider Block: Increases block width
-- 🏆 High score tracking
-- 🎨 Beautiful, responsive design
-- 🌈 Colorful block patterns
+-  Simple one-button gameplay (Space bar or click)
+-  Three unique power-ups:
+  -  Slow Motion: Reduces block movement speed
+  -  Perfect Stack: Guarantees perfect alignment
+  -  Wider Block: Increases block width
+-  High score tracking
+-  Beautiful, responsive design
+-  Colorful block patterns
 
 Technologies Used
 
