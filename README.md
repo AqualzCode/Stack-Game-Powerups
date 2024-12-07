@@ -27,3 +27,5 @@ Technologies Used
 4. Try to build the tallest tower possible!
 
 The game gets progressively harder as your tower grows taller. How high can you stack?
+
+*used AI for a little bit of the sudo code and used it to write a bit of the readme but changed it later*
